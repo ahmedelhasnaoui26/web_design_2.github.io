@@ -1,0 +1,163 @@
+.div{
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    padding: 150px 60px 0px 60px;
+    flex-wrap: wrap;
+
+}
+.divbg{
+    background-color: #F6F6F6;
+    height: 500px;
+    flex-wrap: wrap;
+}
+.div0{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 60px 60px 150px 60px;
+    
+}
+.div1{
+    width: 545px;
+    height: 350px;
+    flex-wrap: wrap;
+}
+.div11{
+    width: 545px;
+    height: 350px;
+    flex-wrap: wrap;
+}
+.h1{
+    color: #1F2E35;
+    font-size: 48px;
+    text-align: start;
+}
+.span{
+    color: #EE4248;
+}
+.p{
+    color: #30444E;
+    font-size: 20px;
+    text-align: start;
+}
+.button{
+    background-color: #EE4248;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 4px;
+    padding: 10px 50px;
+    border: none;
+    margin-top: 10px;
+    
+    display: flex;
+    
+}
+.img{
+    position: absolute;
+    right: 50px;
+    float: right;
+    z-index: -1;
+}
+.h5{
+    font-size: 38px;
+    color: #1F2E35;
+}
+@media(max-width:800px){
+    .div{
+        flex-direction: column;
+
+        
+    }
+    .div0{
+        margin-top: 500px;
+        flex-direction: column;
+        
+    }
+    
+
+}
+@media(max-width:420px){
+   
+    .divbg{
+        background-color: #F6F6F6;
+        height: 800px;
+        flex-wrap: wrap;
+    }
+    
+    .div1{
+        width: 300px;
+        height: 350px;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .div11{
+        width: auto;
+        height: auto;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-top: -100px;
+        padding: 10px;
+        
+    }
+    .div{
+        flex-direction: column;
+        text-align: center;
+    }
+    .div0{
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+    }
+    .p{
+        color: #30444E;
+        font-size: 16px;
+        text-align: center;
+    }
+    .h1{
+        color: #1F2E35;
+        font-size: 30px;
+        text-align: center;
+    }
+    .button{
+        background-color: #EE4248;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        border-radius: 4px;
+        padding: 5px 20px;
+        border: none;
+       display: flex;
+        margin-top: 20px; 
+    }
+    .divbutton{
+        
+        margin-left: 90px;
+        justify-content: center;
+    }
+    .img{
+        position: absolute;
+        
+        width: 70%;
+        height: 50%;
+        
+        top: 0;
+        
+        z-index: -1;
+    }
+    .img2{
+        
+        
+        width: 100%;
+        height: 50%;
+        
+    }
+    .h5{
+        font-size: 30px;
+        color: #1F2E35;
+    }
+
+}

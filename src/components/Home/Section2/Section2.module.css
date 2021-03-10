@@ -1,0 +1,214 @@
+.divsection{
+    margin: 100px 100px;
+}
+.div{
+    width: 360px;
+    height: 305px;
+    margin: 100px 50px;
+    
+    
+    
+}
+.h3{
+    color: #1F2E35;
+    font-size: 32px;
+}
+.divimg{
+    text-align: start;
+}
+.img{
+    
+    left: 0;
+    padding: 0;
+    margin: 0;
+    
+}
+.h5{
+    color: #EE4248;
+    font-size: 28px;
+    text-align: start;
+    padding: 10px;
+    margin: 0;
+}
+.p{
+    color: #30444E;
+    font-size: 18px;
+    text-align: start;
+    padding: 10px;
+    margin: 0;
+}
+.button{
+    background-color: #EE4248;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 4px;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+    bottom: 0;
+    display: flex;
+    
+}
+.Row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.divfin{
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    margin: 100px 150px 20px 150px;
+    padding: 0;
+}
+.h55{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+.pp{
+    margin: 0;
+    padding-top: 10px;
+}
+.ppp{
+    margin-top: 40px;
+    padding: 0;
+}
+.footer{
+    background-color: #EE4248;
+    height: 38px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    
+}
+.copy{
+    padding-top: 8px;
+    margin: 0;
+}
+@media(max-width:800px){
+    .Row{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .divfin{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .h55{
+        font-size: 16px;
+        margin-top: 10px;
+        padding: 0;
+    }
+    .pp{
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+    .ppp{
+        margin-top: 0px;
+        padding: 0;
+    }
+
+}
+@media(max-width:420px){
+    .divsection{
+        margin: 0;
+        padding: 0;
+    }
+    .div{
+        
+        height:250px;
+        width: 300px;
+        
+        padding: 0;
+        
+        
+    }
+    .h3{
+        color: #1F2E35;
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .divimg{
+        text-align: center;
+    }
+    .img{
+        top: 0;
+        left: 0;
+        padding: 0;
+        margin: 0;
+        width: 60%;
+        height: 60%;
+        
+    }
+    .h5{
+        color: #EE4248;
+        font-size: 18px;
+        text-align: center;
+        padding: 10px;
+        margin: 0;
+    }
+    .p{
+        color: #30444E;
+        font-size: 14px;
+        text-align: center;
+        padding: 10px;
+        margin: 0;
+    }
+    .button{
+        background-color: #EE4248;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        border-radius: 4px;
+        padding: 10px 20px;
+        border: none;
+        margin-top: 10px;
+        margin-left: 90px;
+        bottom: 0;
+        display: flex;
+        
+    }
+    .Row{
+        flex-direction: column;  
+    }
+    .divfin{
+        flex-direction: column;
+        
+        text-align: start;
+        margin: 70px 10px 10px 10px;
+        padding: 0;
+    }
+    .h55{
+        font-size: 16px;
+        margin: 20px 0 0 0;
+        padding: 0;
+    }
+    .pp{
+        margin: 0;
+        padding-top: 0;
+    }
+    .ppp{
+        margin-top: 40px;
+        padding: 0;
+    }
+    
+    .footer{
+        background-color: #EE4248;
+        height: 18px;
+        margin: 0;
+        padding: 10px;
+        color: white;
+        text-align: center;
+        
+    }
+    .copy{
+        padding: 0;
+        margin-bottom: 8px;
+    }
+
+}
